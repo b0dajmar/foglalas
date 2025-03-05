@@ -1,0 +1,34 @@
+{
+    "events":[
+        {
+            "id": "1",
+            "name": "Tojdár Ferenc",
+            "phoneNumber":"23454344"
+        },
+        {
+            "id": "2",
+            "name": "Gusztus Péter",
+            "phoneNumber":"11111111111"
+        },
+        {
+            "id": "3",
+            "name": "Október Feredinád",
+            "phoneNumber":"215333"
+        },
+        {
+            "id": "4",
+            "name": "Riviai Gerált",
+            "phoneNumber":"3554644"
+        },
+        {
+            "id": "5",
+            "name": "Gombóc Artúr",
+            "phoneNumber":"6666666"
+        },
+        {
+            "id": "6",
+            "name": "Goblin Dominik",
+            "phoneNumber":"4242424242"
+        }
+    ]
+}
