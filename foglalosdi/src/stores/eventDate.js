@@ -13,5 +13,17 @@ export const useEventDateStore = defineStore('eventer', () => {
     events.value[id] = events.value[id] ? events.value[id] + 1 : 1
   }
 
-  return { events, loadAll, newAppointment }
+  const saveProduct = (e) => {
+    console.log(e)
+    //let id = Math.round(Math.random() * 1000000000)
+    products.value.push(e)
+    axios.post("http://localhost:3000/events",e)
+    .then(resp => {
+      console.log(resp.statusText)
+      toast("Sikeres mentés");
+    })
+    .catch(() => toast.error("Hiba"))
+  }
+
+  return { events, loadAll, newAppointment, saveProduct }
 })

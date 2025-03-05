@@ -1,5 +1,6 @@
 <script setup>
-import {useEventDateStore} from '@/stores/eventDate.js'
+
+import { useEventDateStore } from '@/stores/eventDate';
  const eventStore = useEventDateStore()
 </script>
 

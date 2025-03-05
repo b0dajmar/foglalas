@@ -3,22 +3,30 @@
         {
             "id": "1",
             "name": "Tojdár Ferenc",
-            "phoneNumber":"23454344"
+            "phoneNumber":"23454344",
+            "appointmentDay":"hétfő",
+            "appointmentHou":"8"
         },
         {
             "id": "2",
             "name": "Gusztus Péter",
-            "phoneNumber":"11111111111"
+            "phoneNumber":"11111111111",
+            "appointmentDay":"kedd",
+            "appointmentHou":"15"
         },
         {
             "id": "3",
             "name": "Október Feredinád",
-            "phoneNumber":"215333"
+            "phoneNumber":"215333",
+            "appointmentDay":"hétfő",
+            "appointmentHou":"9"
         },
         {
             "id": "4",
             "name": "Riviai Gerált",
-            "phoneNumber":"3554644"
+            "phoneNumber":"3554644",
+            "appointmentDay":"szerda",
+            "appointmentHou":"13"
         },
         {
             "id": "5",
