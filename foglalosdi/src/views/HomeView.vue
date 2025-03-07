@@ -9,6 +9,8 @@ import { useEventDateStore } from '@/stores/eventDate';
   <div v-for="e in eventStore.events" :key="e.id">
     <div>{{ e.name }}</div>
     <div>{{ e.phoneNumber }}</div>
+    <div>{{ e.appointmentHour }}</div>
+    <div>{{ e.appointmentDay }}</div>
   
     
   </div>

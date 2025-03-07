@@ -5,7 +5,9 @@ import { useEventDateStore } from '@/stores/eventDate';
 const eventStore = useEventDateStore()
 
 onMounted(()=>{
-  eventStore.loadAll
+  eventStore.loadAll()
+  eventStore.filter()
+
 })
 </script>
 

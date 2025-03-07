@@ -11,7 +11,14 @@ export const useEventDateStore = defineStore('eventer', () => {
     .then(resp => resp.json())
     .then(data => events.value = data)
   }
-
+  const filter = () =>{
+    events.forEach(element => {
+      if(hours.includes(element.appointmentHour) && days.includes(element.appointmentDay)) {
+        delete hours.value.find((e)=> e == element.appointmentHour)
+        delete days.value.find((e)=> e == element.appointmentDay)
+      }
+    });
+  }
   
 
   const saveEvent = (e) => {
@@ -26,5 +33,5 @@ export const useEventDateStore = defineStore('eventer', () => {
     .catch(() => toast.error("Hiba"))
   }
 
-  return { events, loadAll, saveEvent }
+  return { events, loadAll, saveEvent, filter }
 })
