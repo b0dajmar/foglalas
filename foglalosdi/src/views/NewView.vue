@@ -1,5 +1,5 @@
 <template>
-    <form @submit.prevent="events.saveEvent(event)">
+    <form @submit.prevent="savePrep()">
         <label for="nev">Név:</label>
         <input type="text" v-model="event.name" id="nev">
         <label for="tel">Telefonszám:</label>
@@ -19,7 +19,14 @@
 <script setup>
     import {ref} from'vue'
     import { useEventDateStore } from '@/stores/eventDate';
-
+    const savePrep = () =>{
+        if(event.name != null && event.phoneNumber != null && event.appointmentDay != null && event.appointmentHour != null){
+            events.saveEvent(event)
+        }
+        else{
+            console.log('Needs some bread!["Minden mezőt ki kell tölteni"]')
+        } 
+       }
     const events = useEventDateStore()
     const event = ref({
         "name": "",
