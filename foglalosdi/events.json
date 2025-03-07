@@ -2,14 +2,14 @@
     "events":[
         {
             "id": "1",
-            "name": "Tojdár Ferenc",
+            "name": "Sokadik Lajos",
             "phoneNumber":"23454344",
             "appointmentDay":"hétfő",
             "appointmentHour":"8"
         },
         {
             "id": "2",
-            "name": "Gusztus Péter",
+            "name": "Grízes Tábornok",
             "phoneNumber":"11111111111",
             "appointmentDay":"kedd",
             "appointmentHour":"15"
@@ -26,21 +26,21 @@
             "name": "Riviai Gerált",
             "phoneNumber":"3554644",
             "appointmentDay":"szerda",
-            "appointmentHour":"13"
+            "appointmentHour":"16"
         },
         {
             "id": "5",
             "name": "Gombóc Artúr",
             "phoneNumber":"6666666",
             "appointmentDay":"csütörtök",
-            "appointmentHour":"13"
+            "appointmentHour":"14"
         },
         {
             "id": "6",
             "name": "Goblin Dominik",
             "phoneNumber":"4242424242",
             "appointmentDay":"péntek",
-            "appointmentHour":"13"
+            "appointmentHour":"11"
         }
     ]
 }

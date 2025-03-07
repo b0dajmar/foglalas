@@ -6,6 +6,7 @@ import { useEventDateStore } from '@/stores/eventDate';
 
 <template>
  <div>
+  <label>Foglalt [Placeholder] időpontok </label>
   <div v-for="e in eventStore.events" :key="e.id">
     <div>{{ e.name }}</div>
     <div>{{ e.phoneNumber }}</div>
