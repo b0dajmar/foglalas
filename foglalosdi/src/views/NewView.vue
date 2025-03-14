@@ -1,4 +1,5 @@
 <template>
+    <h1 class="text-center">Időpont Foglalása</h1>
     <form @submit.prevent="savePrep(event)" class="w-50 mx-auto">
         <label for="nev">Név:</label>
         <input type="text" v-model="event.name" id="nev" class="form-control">
