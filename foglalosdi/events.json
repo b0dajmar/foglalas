@@ -1,46 +1,74 @@
 {
-    "events":[
-        {
-            "id": "1",
-            "name": "Sokadik Lajos",
-            "phoneNumber":"23454344",
-            "appointmentDay":"hétfő",
-            "appointmentHour":"8"
-        },
-        {
-            "id": "2",
-            "name": "Grízes Tábornok",
-            "phoneNumber":"11111111111",
-            "appointmentDay":"kedd",
-            "appointmentHour":"15"
-        },
-        {
-            "id": "3",
-            "name": "Október Ferdinád",
-            "phoneNumber":"215333",
-            "appointmentDay":"hétfő",
-            "appointmentHour":"9"
-        },
-        {
-            "id": "4",
-            "name": "Riviai Gerált",
-            "phoneNumber":"3554644",
-            "appointmentDay":"szerda",
-            "appointmentHour":"16"
-        },
-        {
-            "id": "5",
-            "name": "Gombóc Artúr",
-            "phoneNumber":"6666666",
-            "appointmentDay":"csütörtök",
-            "appointmentHour":"14"
-        },
-        {
-            "id": "6",
-            "name": "Goblin Dominik",
-            "phoneNumber":"4242424242",
-            "appointmentDay":"péntek",
-            "appointmentHour":"11"
-        }
-    ]
+  "events": [
+    {
+      "id": "1",
+      "name": "Sokadik Lajos",
+      "phoneNumber": "23454344",
+      "appointmentDay": "hétfő",
+      "appointmentHour": "8"
+    },
+    {
+      "id": "2",
+      "name": "Grízes Tábornok",
+      "phoneNumber": "11111111111",
+      "appointmentDay": "kedd",
+      "appointmentHour": "15"
+    },
+    {
+      "id": "3",
+      "name": "Október Ferdinád",
+      "phoneNumber": "215333",
+      "appointmentDay": "hétfő",
+      "appointmentHour": "9"
+    },
+    {
+      "id": "4",
+      "name": "Riviai Gerált",
+      "phoneNumber": "3554644",
+      "appointmentDay": "szerda",
+      "appointmentHour": "16"
+    },
+    {
+      "id": "5",
+      "name": "Gombóc Artúr",
+      "phoneNumber": "6666666",
+      "appointmentDay": "csütörtök",
+      "appointmentHour": "14"
+    },
+    {
+      "id": "6",
+      "name": "Goblin Dominik",
+      "phoneNumber": "4242424242",
+      "appointmentDay": "péntek",
+      "appointmentHour": "11"
+    },
+    {
+      "id": "7609",
+      "name": "hj",
+      "phoneNumber": 33,
+      "appointmentDay": "hétfő",
+      "appointmentHour": "8"
+    },
+    {
+      "id": "fe07",
+      "name": "sdf",
+      "phoneNumber": 33,
+      "appointmentDay": "hétfő",
+      "appointmentHour": "8"
+    },
+    {
+      "id": "47f0",
+      "name": "sdf",
+      "phoneNumber": 33,
+      "appointmentDay": "hétfő",
+      "appointmentHour": "8"
+    },
+    {
+      "id": "2109",
+      "name": "",
+      "phoneNumber": "",
+      "appointmentDay": "",
+      "appointmentHour": ""
+    }
+  ]
 }

@@ -1,9 +1,11 @@
 import { ref, computed } from 'vue'
 import { defineStore } from 'pinia'
 import axios  from 'axios'
+import { useToast } from 'vue-toastification';
 
 export const useEventDateStore = defineStore('eventer', () => {
  const events = ref([])
+ const toast = useToast()
  const hours = ref(['8','9','10','11','12','13','14','15','16'])
  const days = ref(['hétfő','kedd','szerda','csütörtök','péntek'])
   const loadAll = () =>{
