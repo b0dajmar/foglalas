@@ -5,13 +5,14 @@ import { useEventDateStore } from '@/stores/eventDate';
 </script>
 
 <template>
- <div>
-  <label>Foglalt [Placeholder] időpontok </label>
-  <div v-for="e in eventStore.events" :key="e.id">
-    <div>{{ e.name }}</div>
-    <div>{{ e.phoneNumber }}</div>
-    <div>{{ e.appointmentHour }}</div>
-    <div>{{ e.appointmentDay }}</div>
+  <h1 class="text-center">Foglalt Időpontok</h1>
+ <div class="row">
+  <div v-for="e in eventStore.events" :key="e.id" class="card col-12 col-md">
+    <div class="card-title text-center">{{ e.name }}</div>
+    <div class="text-center"> nap: {{ e.appointmentDay }}</div>
+    <div class="text-center"> óra: {{ e.appointmentHour }}</div>
+    <div class="text-center"> tel: {{ e.phoneNumber }}</div>
+   
   
     
   </div>

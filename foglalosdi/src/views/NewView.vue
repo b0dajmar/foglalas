@@ -5,8 +5,8 @@
         <label for="tel">Telefonszám:</label>
         <input type="text" v-model="event.phoneNumber" id="tel">
         <label for="orak">Mikor:</label>
-        <select v-model="event.appointmentHou" id="orak">
-            <option v-for="ora, index in events.hours" :key="index">{{ ora }}</option>
+        <select v-model="event.appointmentHour" id="orak">
+            <option v-for="ora, index in events.hour" :key="index">{{ ora }}</option>
         </select>
         <label for="napok">Melyik nap:</label>
         <select v-model="event.appointmentDay" id="napok">
