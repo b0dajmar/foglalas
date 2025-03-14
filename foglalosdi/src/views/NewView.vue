@@ -6,11 +6,11 @@
         <input type="number" v-model="event.phoneNumber" id="tel" class="form-control">
         <label for="orak" >Mikor:</label>
         <select v-model="event.appointmentHour" id="orak" class="form-control">
-            <option v-for="ora, index in hours" :key="index">{{ ora }}</option>
+            <option v-for="ora, index in events.hours" :key="index">{{ ora }}</option>
         </select>
         <label for="napok">Melyik nap:</label>
         <select v-model="event.appointmentDay" id="napok" class="form-control">
-            <option v-for="nap, index in days" :key="index">{{ nap }}</option>
+            <option v-for="nap, index in events.days" :key="index">{{ nap }}</option>
         </select>
         <input type="submit" value="Mentés" class="form-control">
     </form>
@@ -22,8 +22,9 @@
     import { useToast } from 'vue-toastification';
     
     const toast = useToast()
-    const hours = ref(['8','9','10','11','12','13','14','15','16'])
- const days = ref(['hétfő','kedd','szerda','csütörtök','péntek'])
+  
+    //const hours = ref(['8','9','10','11','12','13','14','15','16'])
+    //const days = ref(['hétfő','kedd','szerda','csütörtök','péntek'])
     const savePrep = (event) =>{
         if(event.name != "" && event.phoneNumber != "" && event.appointmentDay != "" && event.appointmentHour != ""){
             events.saveEvent(event)
@@ -35,6 +36,7 @@
         } 
        }
     const events = useEventDateStore()
+    
     const event = ref({
         "name": "",
         "phoneNumber": "",

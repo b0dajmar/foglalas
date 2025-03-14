@@ -7,7 +7,7 @@ const eventStore = useEventDateStore()
 
 onMounted(()=>{
   eventStore.loadAll()
-  //eventStore.filter()
+  eventStore.filter()
 
 })
 </script>

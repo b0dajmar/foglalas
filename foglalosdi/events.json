@@ -69,6 +69,13 @@
       "phoneNumber": "",
       "appointmentDay": "",
       "appointmentHour": ""
+    },
+    {
+      "id": "0f1d",
+      "name": "hj",
+      "phoneNumber": 33,
+      "appointmentDay": "hétfő",
+      "appointmentHour": "9"
     }
   ]
 }

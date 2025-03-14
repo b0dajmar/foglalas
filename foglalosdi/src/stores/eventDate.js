@@ -14,12 +14,18 @@ export const useEventDateStore = defineStore('eventer', () => {
     .then(data => events.value = data)
   }
   const filter = () =>{
-    events.forEach(element => {
+    for ( let i = 0; i <events.lenght; i++){
+      if(hours.includes(events[i].appointmentHour) && days.includes(events[i].appointmentDay)) {
+        delete hours.value.find((e)=> e == events[i].appointmentHour)
+        delete days.value.find((e)=> e == events[i].appointmentDay)
+      }
+    }
+    /*events.forEach((element) => {
       if(hours.includes(element.appointmentHour) && days.includes(element.appointmentDay)) {
         delete hours.value.find((e)=> e == element.appointmentHour)
         delete days.value.find((e)=> e == element.appointmentDay)
       }
-    });
+    });*/
   }
   
 
@@ -35,5 +41,5 @@ export const useEventDateStore = defineStore('eventer', () => {
     .catch(() => toast.error("Hiba"))
   }
 
-  return { events, loadAll, saveEvent, filter }
+  return { events, hours,days,loadAll, saveEvent, filter }
 })
