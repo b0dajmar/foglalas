@@ -20,15 +20,11 @@ it('Mentés',() =>{
 })
 it('Tartalom ellnőrzés',() =>{
   const  wrapper = mount(HomeView)
-  
- 
   expect(wrapper.text()).toContain('Foglalt Időpontok')
 
 })
 it('Tartalom ellnőrzés 2',() =>{
   const  wrapper = mount(NewView)
-  
- 
   expect(wrapper.text()).toContain('Időpont Foglalása')
 
 })
