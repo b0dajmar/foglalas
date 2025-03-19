@@ -3,7 +3,7 @@
     {
       "id": "1",
       "name": "Sokadik Lajos",
-      "phoneNumber": "234344",
+      "phoneNumber": "23454344",
       "appointmentDay": "hétfő",
       "appointmentHour": "8"
     },
@@ -41,6 +41,14 @@
       "phoneNumber": "4242424242",
       "appointmentDay": "péntek",
       "appointmentHour": "11"
+    },
+    {
+      "id": "3d77",
+      "name": "Mészáros Lőőő.... Leonárd",
+      "phoneNumber": 14263,
+      "appointmentDay": "szerda",
+      "appointmentHour": "9"
     }
+   
   ]
 }

@@ -25,7 +25,7 @@ it('Tartalom ellnőrzés',() =>{
   expect(wrapper.text()).toContain('Foglalt Időpontok')
 
 })
-it('Tartalom ellnőrzés 3',() =>{
+it('Tartalom ellnőrzés 2',() =>{
   const  wrapper = mount(NewView)
   
  

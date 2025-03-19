@@ -27,10 +27,12 @@
     
     const toast = useToast()
   
+    
     //const hours = ref(['8','9','10','11','12','13','14','15','16'])
     //const days = ref(['hétfő','kedd','szerda','csütörtök','péntek'])
     const savePrep = (event) =>{
         if(event.name != "" && event.phoneNumber != "" && event.appointmentDay != "" && event.appointmentHour != ""){
+            
             events.saveEvent(event)
             console.log(event.name)
         }
