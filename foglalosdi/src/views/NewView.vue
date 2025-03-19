@@ -1,4 +1,6 @@
 <template>
+    <body>
+
     <h1 class="text-center">Időpont Foglalása</h1>
     <form @submit.prevent="savePrep(event)" class="w-50 mx-auto">
         <label for="nev">Név:</label>
@@ -13,8 +15,9 @@
         <select v-model="event.appointmentDay" id="napok" class="form-control">
             <option v-for="nap, index in events.days" :key="index">{{ nap }}</option>
         </select>
-        <input type="submit" value="Mentés" class="form-control">
+        <input type="submit" value="Mentés" class="form-control btn btn-outline-success m-2">
     </form>
+    </body>
 </template>
 
 <script setup>
@@ -45,3 +48,18 @@
         "appointmentHour":""
     })
 </script>
+<style scoped>
+    body{
+        background-image: url("@/assets/win.jpg");
+        background-size: cover;  
+        padding: 10%;
+        padding-bottom: 15%;  
+        margin-left: 10%;
+        margin-right: 10%; 
+        
+    }
+    .row{
+      padding: 10%;
+    }
+   
+</style>

@@ -3,14 +3,14 @@
     {
       "id": "1",
       "name": "Sokadik Lajos",
-      "phoneNumber": "23454344",
+      "phoneNumber": "234344",
       "appointmentDay": "hétfő",
       "appointmentHour": "8"
     },
     {
       "id": "2",
       "name": "Grízes Tábornok",
-      "phoneNumber": "11111111111",
+      "phoneNumber": "1111111",
       "appointmentDay": "kedd",
       "appointmentHour": "15"
     },
@@ -41,41 +41,6 @@
       "phoneNumber": "4242424242",
       "appointmentDay": "péntek",
       "appointmentHour": "11"
-    },
-    {
-      "id": "7609",
-      "name": "hj",
-      "phoneNumber": 33,
-      "appointmentDay": "hétfő",
-      "appointmentHour": "8"
-    },
-    {
-      "id": "fe07",
-      "name": "sdf",
-      "phoneNumber": 33,
-      "appointmentDay": "hétfő",
-      "appointmentHour": "8"
-    },
-    {
-      "id": "47f0",
-      "name": "sdf",
-      "phoneNumber": 33,
-      "appointmentDay": "hétfő",
-      "appointmentHour": "8"
-    },
-    {
-      "id": "2109",
-      "name": "",
-      "phoneNumber": "",
-      "appointmentDay": "",
-      "appointmentHour": ""
-    },
-    {
-      "id": "0f1d",
-      "name": "hj",
-      "phoneNumber": 33,
-      "appointmentDay": "hétfő",
-      "appointmentHour": "9"
     }
   ]
 }
